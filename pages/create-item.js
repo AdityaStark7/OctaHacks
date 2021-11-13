@@ -86,7 +86,7 @@ export default function CreateItem() {
         backgroundColor: "#a2d5c6",
         backgroundImage: " linear-gradient(#0f2027,#203a43,#2c5364 74%)",
         minHeight: "100%",
-        height: "81.5vh"
+        height: "100vh"
       }}
     >
       <Particles />
@@ -95,6 +95,7 @@ export default function CreateItem() {
           <input
             placeholder="Asset Name"
             className="mt-8 border rounded p-4"
+            style={{color:"black"}}
             onChange={(e) =>
               updateFormInput({ ...formInput, name: e.target.value })
             }
@@ -102,6 +103,7 @@ export default function CreateItem() {
           <textarea
             placeholder="Asset Description"
             className="mt-2 border rounded p-4"
+            style={{color:"black"}}
             onChange={(e) =>
               updateFormInput({ ...formInput, description: e.target.value })
             }
@@ -109,6 +111,7 @@ export default function CreateItem() {
           <input
             placeholder="Asset Price in Eth"
             className="mt-2 border rounded p-4"
+            style={{color:"black"}}
             onChange={(e) =>
               updateFormInput({ ...formInput, price: e.target.value })
             }
