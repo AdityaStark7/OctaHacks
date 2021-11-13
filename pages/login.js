@@ -23,7 +23,7 @@ const LoginPage = () => {
 
     return (
         <div style = {{overflow:"hidden"}}>
-            <div style = {{textAlign:"center" , padding:"20px 0"}}>{email !== '' ? `Logged in as : ${email}` : ''}</div>
+            <div style = {{textAlign:"center" , padding:"20px 0",color:"black"}}>{email !== '' ? `Logged in as : ${email}` : ''}</div>
             <div style = {{height:"80vh" , display:"flex" , alignItems:"center" , justifyContent:"center"}}>
                 <div id="sawo-container" style={{height:"300px", width:"400px"}}></div>
             </div>

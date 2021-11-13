@@ -13,9 +13,9 @@ const news = () => {
     },[])
 
     return (
-        <div style = {{display:"flex" , flexDirection: "column" , gap: "20px" , padding: "50px"}}>
+        <div style = {{display:"flex" , flexDirection: "column" , gap: "20px" , padding: "50px",color:"black"}}>
             {data.map((value , idx)=>(
-                <News key = {idx} url = {value.url} image = {value.urlToImage} title = {value.title} author = {value.author} description = {value.description} sourceName = {value.source.name}/>
+                <News style={{color:"black"}}key = {idx} url = {value.url} image = {value.urlToImage} title = {value.title} author = {value.author} description = {value.description} sourceName = {value.source.name}/>
             ))}
         </div>
     )

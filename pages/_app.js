@@ -47,7 +47,7 @@ function Marketplace({ Component, pageProps }) {
           </Link>
           </li>
           <li>
-          <Link href="/news">
+          <Link href="https://global-climate-news-dev.herokuapp.com/" target="_blank">
             <a className="" style = {{cursor:"pointer"}}>
               Climate News
             </a>
