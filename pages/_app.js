@@ -54,6 +54,13 @@ function Marketplace({ Component, pageProps }) {
           </Link>
           </li>
           <li>
+          <Link href="https://radiant-mesa-29894.herokuapp.com/" target="_blank">
+            <a className="" style = {{cursor:"pointer"}}>
+              Plantation Area
+            </a>
+          </Link>
+          </li>
+          <li>
           <Link href="/login">
             <a className="" style = {{cursor:"pointer"}}>
               Login
